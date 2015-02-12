@@ -1,4 +1,9 @@
-"# This is my README"
+# This is my README"
+
+Downloading:
+============
+To run a binary version of the tool, please visit the releases page: 
+https://github.com/spftest/java_pp/releases
 
 Building:
 =========
