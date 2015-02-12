@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Observability
+Bundle-SymbolicName: edu.umn.crisys.observability; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umn.crisys.observability.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt;bundle-version="3.8.0",
+ org.eclipse.jdt.core;bundle-version="3.8.1",
+ org.eclipse.jdt.core.manipulation;bundle-version="1.5.0",
+ org.eclipse.jface.text;bundle-version="3.8.0",
+ org.eclipse.jface.text,
+ org.eclipse.core.resources;bundle-version="3.8.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.eclipse.jdt.core.dom,
+ org.eclipse.ui.console
